@@ -16,7 +16,7 @@
 
 html {
     background-color: var(--bg-page);
-    background-image: url("assets/images/bg.gif");
+    background-image: url("public/assets/images/bg.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(assets/images/main.png);
+    background-image: url(public/assets/images/main.png);
     border-radius: var(--radius);
     box-shadow: 0.25em 0.25em var(--bg-page);
 }
@@ -163,10 +163,10 @@ footer p {
 /*Disable gifs*/
 @media (prefers-reduced-motion: reduce) {
     html {
-        background-image: url("assets/images/bg.png");
+        background-image: url("public/assets/images/bg.png");
     }
 
     .small-img {
-        content: url("assets/images/squid.png");
+        content: url("public/assets/images/squid.png");
     }
 }
